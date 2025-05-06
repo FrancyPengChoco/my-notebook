@@ -1,3 +1,5 @@
+Bybit Past Funding rate download link: https://www.bybit.com/en/announcement-info/fund-rate/ 
+
 Each period is 8 hours;
 Starting with an initial capital of 1,000,000 USDT (non-compounding).
 
