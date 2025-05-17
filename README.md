@@ -21,3 +21,10 @@ then starting from the 10th period, monitor whether the funding rate turns negat
 If the funding rate becomes negative at the end of the (10+n)th period, then at the beginning of the (11+n)th period, 
 place a limit order to buy futures to close the short position at the futures opening price, 
 and immediately transfer all BTC back to the spot account and place a limit sell order at the same price to exit the BTC spot position.
+
+
+***
+Version	Description
+Version 1 (.No_Com): Uses fixed capital; funding fees are sold for USDT every 8 hours and not reinvested. 
+Version 2 (.ComV1):	Reinvests all profits into the next trade. Compounds over time.
+Version 3 (.ComV2): Does not convert received funding to USDT, but instead used them to increase the short position with 1x leverage every 8 hours, and reinvests all profits into the next trade. Compounds over time
