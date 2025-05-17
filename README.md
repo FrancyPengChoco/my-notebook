@@ -25,6 +25,9 @@ and immediately transfer all BTC back to the spot account and place a limit sell
 
 ***
 Version	Description
+
 Version 1 (.No_Com): Uses fixed capital; funding fees are sold for USDT every 8 hours and not reinvested. 
+
 Version 2 (.ComV1):	Reinvests all profits into the next trade. Compounds over time.
+
 Version 3 (.ComV2): Does not convert received funding to USDT, but instead used them to increase the short position with 1x leverage every 8 hours, and reinvests all profits into the next trade. Compounds over time
